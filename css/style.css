@@ -1,0 +1,59 @@
+.card {
+    width: 32%;
+    margin-left: 1%;
+}
+th {
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    margin-right: unset;
+    margin-left: unset;
+    padding: 10px 12px;
+    background: white;
+}
+td {
+    color: #000000;
+    border-top: 1px solid white;
+    padding: 10px 12px;
+    background: rgb(255, 255, 255);
+    transition: .3s;
+    text-align: justify;
+
+}
+tr:hover td {
+    background: rgb(255, 255, 255);
+}
+
+.td-o{
+    border-bottom: 2px solid black;
+}
+
+.td-u{
+    border-bottom: 2px solid black;
+}
+
+.td-u2{
+    position: relative;
+    
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+li {
+    color: #000000;
+    font-size: 18px;
+    font-family: "Times New Roman";
+
+  }
